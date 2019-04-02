@@ -60,3 +60,7 @@ func main() {
 }
 
 ```
+### TO DO
+
+* Obtendo dados históricos
+* Personalizando a resposta
