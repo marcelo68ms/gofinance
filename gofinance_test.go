@@ -2,7 +2,7 @@ package gofinance
 
 import "testing"
 
-const key = "6c050039"
+const key = ""
 
 func TestGetQuotations(t *testing.T) {
 
