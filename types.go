@@ -45,15 +45,15 @@ type Stock struct {
 }
 
 type BitCoin struct {
-	BlockChainInfo *BitCoinMerchant `json:"blockchain_info"`
-	CoinBase       *BitCoinMerchant `json:"coinbase"`
-	FoxBit         *BitCoinMerchant `json:"foxbit"`
-	MercadoBitCoin *BitCoinMerchant `json:"mercadobitcoin"`
-	OmniTrade      *BitCoinMerchant `json:"omnitrade"`
-	Xdex           *BitCoinMerchant `json:"xdex"`
+	BlockChainInfo *Exchange `json:"blockchain_info"`
+	CoinBase       *Exchange `json:"coinbase"`
+	FoxBit         *Exchange `json:"foxbit"`
+	MercadoBitCoin *Exchange `json:"mercadobitcoin"`
+	OmniTrade      *Exchange `json:"omnitrade"`
+	Xdex           *Exchange `json:"xdex"`
 }
 
-type BitCoinMerchant struct {
+type Exchange struct {
 	Name      string   `json:"name"`
 	Format    []string `json:"format"`
 	Last      float64  `json:"last"`
