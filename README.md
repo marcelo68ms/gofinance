@@ -60,6 +60,9 @@ func main() {
 }
 
 ```
+### HG Finance
+https://hgbrasil.com/status/finance/
+
 ### TO DO
 
 * Obtendo dados históricos
