@@ -12,7 +12,7 @@ go get github.com/lucasmdomingues/gofinance
 import (
 	"encoding/json"
 	"fmt"
-	"gofinance"
+	"github.com/lucasmdomingues/gofinance"
 )
 
 func main() {
