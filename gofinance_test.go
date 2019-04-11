@@ -20,5 +20,4 @@ func TestGetTaxes(t *testing.T) {
 		t.Error(err)
 		return
 	}
-
 }

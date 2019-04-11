@@ -7,11 +7,11 @@ import (
 	"net/http"
 )
 
-const HG_FINANCE_PREFIX = "https://api.hgbrasil.com/finance"
+const apiHgFinancePrefix = "https://api.hgbrasil.com/finance"
 
 func GetQuotations(key string) (*DataQuotation, error) {
 
-	url := fmt.Sprintf("%s/quotations?key=%s", HG_FINANCE_PREFIX, key)
+	url := fmt.Sprintf("%s/quotations?key=%s", apiHgFinancePrefix, key)
 
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
@@ -45,7 +45,7 @@ func GetQuotations(key string) (*DataQuotation, error) {
 
 func GetTaxes(key string) (*DataTaxe, error) {
 
-	url := fmt.Sprintf("%s/taxes?key=%s", HG_FINANCE_PREFIX, key)
+	url := fmt.Sprintf("%s/taxes?key=%s", apiHgFinancePrefix, key)
 
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
