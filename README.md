@@ -1,7 +1,7 @@
 # Instalação
 
 ```go 
-go get github.com/lucasmdomingues/gofinance
+go get github.com/marcelo68ms/gofinance
 ```
 
 # Exemplos
@@ -12,7 +12,7 @@ go get github.com/lucasmdomingues/gofinance
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/lucasmdomingues/gofinance"
+	"github.com/marcelo68ms/gofinance"
 )
 
 func main() {
